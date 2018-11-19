@@ -4,7 +4,7 @@ const fs = require('fs');
 const client = new Discord.Client();
 const prefix = "$";
 client.on('ready', () => {
-client.channels.get("513016296976285706").join();
+client.channels.get("513788550626410498").join();
 client.user.setStatus('dnd');
 client.user.setGame("Survival", "https://twitch.tv/idk");
 console.log('Elite Skill Survival Is Ready!');
